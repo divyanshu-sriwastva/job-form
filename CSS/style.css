@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+
+:root {
+    --text-color: #131313;
+    --main-color: #8f00ff;
+    --primary-color: #fd49a0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+form {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+
+body {
+    background: var(--main-color);
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.flex {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+input, select, textarea {
+    background: transparent;
+    cursor: pointer;
+    width: 27rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid var(--main-color);
+    font-size: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+label {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    background: var(--main-color);
+    color: #fff;
+    transition: .5s;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+input[type="submit"]:hover {
+    background: transparent;
+    color: var(--main-color);
+}
+
+@media (max-width: 1070px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 49%;
+    }
+}
+
+@media (max-width: 574px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media (max-width: 364px) {
+    html {
+        font-size: 25%;
+    }
+}

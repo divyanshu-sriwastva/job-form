@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="This is a simple sample form for Job applying created using HTML , CSS and Js">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Work+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <h1>Job Application (Web)</h1>
+            <div class="flex">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <br>
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                </div>
+                <div>
+                    <label for="second-name">Second Name</label>
+                    <br>
+                    <input type="text" name="second-name" id="second-name" placeholder="Second Name">
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <label for="first-name">Email</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Email Id">
+                </div>
+                <div>
+                    <label for="job-role">Job Role</label>
+                    <br>
+                    <select name="job-role" id="job-role">
+                        <option value="">Frontend Developer</option>
+                        <option value="">Backend Developer</option>
+                        <option value="">Full stack Developer</option>
+                        <option value="">UI/UX Designer</option>
+                    </select>
+                </div>
+            </div>
+            <label for="address">address</label>
+            <br>
+            <textarea name="address" id="address"></textarea>
+            <div class="flex">
+                <div>
+                    <label for="city">City</label>
+                    <br>
+                    <input type="text" name="city" id="city" placeholder="City">
+                </div>
+                <div>
+                    <label for="pin-code">Pin Code</label>
+                    <br>
+                    <input type="number" name="pin-code" id="pin-code" placeholder="Pin Code">
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <label for="date">date</label>
+                    <br>
+                    <input type="date" name="date" id="date" placeholder="Date">
+                </div>
+                <div>
+                    <label for="user-cv">Your CV</label>
+                    <br>
+                    <input type="file" name="user-cv" id="user-cv" placeholder="Upload your CV">
+                </div>
+            </div>
+            <center>
+                <input type="submit" value="Apply Now">
+            </center>
+        </form>
+    </main>
+</body>
+
+</html>
