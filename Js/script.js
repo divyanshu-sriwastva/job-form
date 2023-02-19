@@ -15,5 +15,5 @@ setInterval(() => {
     for (const iterator in input) {
         input[iterator].value != "" ? count++ : null;
     }
-    count == input.length? document.getElementsByName("submit")[0].removeAttribute("disabled") : document.getElementsByName("submit")[0].setAttribute("disabled", "true");
+    count == input.length ? document.getElementsByName("submit")[0].removeAttribute("disabled") : document.getElementsByName("submit")[0].setAttribute("disabled", "true");
 });
