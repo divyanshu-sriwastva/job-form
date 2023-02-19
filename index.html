@@ -23,19 +23,19 @@
                 <div>
                     <label for="first-name">First Name</label>
                     <br>
-                    <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                    <input type="text" class="input" name="first-name" id="first-name" placeholder="First Name">
                 </div>
                 <div>
                     <label for="second-name">Second Name</label>
                     <br>
-                    <input type="text" name="second-name" id="second-name" placeholder="Second Name">
+                    <input type="text" class="input" name="second-name" id="second-name" placeholder="Second Name">
                 </div>
             </div>
             <div class="flex">
                 <div>
                     <label for="first-name">Email</label>
                     <br>
-                    <input type="email" name="email" id="email" placeholder="Email Id">
+                    <input type="email" name="email" id="email" placeholder="Email Id" class="input">
                 </div>
                 <div>
                     <label for="job-role">Job Role</label>
@@ -50,17 +50,17 @@
             </div>
             <label for="address">address</label>
             <br>
-            <textarea name="address" id="address"></textarea>
+            <textarea name="address" class="input" id="address" placeholder="Enter your address..."></textarea>
             <div class="flex">
                 <div>
                     <label for="city">City</label>
                     <br>
-                    <input type="text" name="city" id="city" placeholder="City">
+                    <input type="text" name="city" id="city" placeholder="City" class="input">
                 </div>
                 <div>
                     <label for="pin-code">Pin Code</label>
                     <br>
-                    <input type="number" name="pin-code" id="pin-code" placeholder="Pin Code">
+                    <input type="text" name="pin-code" id="pin-code" placeholder="Pin Code" class="input">
                 </div>
             </div>
             <div class="flex">
@@ -72,14 +72,15 @@
                 <div>
                     <label for="user-cv">Your CV</label>
                     <br>
-                    <input type="file" name="user-cv" id="user-cv" placeholder="Upload your CV">
+                    <input type="file" name="user-cv" id="user-cv" placeholder="Upload your CV" class="input">
                 </div>
             </div>
             <center>
-                <input type="submit" value="Apply Now">
+                <input type="submit" name="submit" value="Apply Now" disabled>
             </center>
         </form>
     </main>
+    <script src="Js/script.js"></script>
 </body>
 
 </html>
