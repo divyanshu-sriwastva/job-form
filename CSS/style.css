@@ -100,7 +100,7 @@ input[type="submit"]:disabled {
 
 @media (max-width: 574px) {
     html {
-        font-size: 35%;
+        font-size: 30%;
     }
 
     body {
